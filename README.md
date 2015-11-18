@@ -5,4 +5,5 @@ So many languages are be added after time stay tuned
 
 Added the c version <br />
 Added the c++ version <br />
-Added the php version
+Added the php version <br />
+Added the html version
