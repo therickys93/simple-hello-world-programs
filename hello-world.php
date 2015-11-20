@@ -8,7 +8,7 @@
  * To run it type:
  * php hello-world.php
  */
-
+ 	// use some of the functions to print
 	echo "Hello World!!!\n";
 	// or
 	printf("Hello World!!!\n"); 

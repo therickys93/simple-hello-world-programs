@@ -13,4 +13,8 @@ So many languages are be added after time stay tuned
 Added the c version <br />
 Added the c++ version <br />
 Added the php version <br />
-Added the html version
+Added the html version <br />
+Added the sql version <br />
+Added the objective-c version <br />
+Added the python version <br />
+Added the javascript version
