@@ -11,10 +11,14 @@
  * to run it type
  * ./hello
  */
+ // include standard input output library
 #include <stdio.h>
 
+// create the main function
 int main(void)
 {
-	printf("Hello World socio!!!\n");
+	// print the string 
+	printf("Hello World!!!\n");
+	// return 0 to say that all is good
 	return 0;
 }
