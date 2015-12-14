@@ -24,14 +24,26 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHK-J5-7ev">
+                                <rect key="frame" x="20" y="84" width="560" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="JHK-J5-7ev" secondAttribute="leading" id="39f-lA-H5y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0BL-iZ-Po5" secondAttribute="trailing" id="PoQ-h5-KIb"/>
                             <constraint firstItem="0BL-iZ-Po5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="T0M-i9-96T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JHK-J5-7ev" secondAttribute="trailing" id="cgt-aC-T18"/>
+                            <constraint firstItem="JHK-J5-7ev" firstAttribute="top" secondItem="0BL-iZ-Po5" secondAttribute="bottom" constant="8" id="hTD-6m-pU3"/>
                             <constraint firstAttribute="leadingMargin" secondItem="0BL-iZ-Po5" secondAttribute="leading" id="q0V-qN-kuv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="secondLabel" destination="JHK-J5-7ev" id="ihN-5Y-R2F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
