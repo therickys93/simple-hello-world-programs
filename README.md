@@ -17,4 +17,5 @@ Added the html version <br />
 Added the sql version <br />
 Added the objective-c version <br />
 Added the python version <br />
-Added the javascript version
+Added the javascript version <br />
+Added the swift version
