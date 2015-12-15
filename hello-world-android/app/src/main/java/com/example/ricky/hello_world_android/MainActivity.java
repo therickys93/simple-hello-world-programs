@@ -4,13 +4,30 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends ActionBarActivity {
+
+    TextView label2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // in the first label the text is written directly from the activity_main.xml
+
+        // in the second label the text is written using the code below
+
+        // get the label from the activity_main.xml
+        this.label2 = (TextView) findViewById(R.id.label2);
+        // create an hello world string
+        String hello = "Hello, World";
+        // set the text of the label2 to be the string
+        this.label2.setText(hello);
     }
 
     @Override
