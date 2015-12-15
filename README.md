@@ -19,4 +19,6 @@ Added the objective-c version <br />
 Added the python version <br />
 Added the javascript version <br />
 Added the swift version <br />
-Added the ios version --> so there is the app that you can run on your device
+Added the ios version --> so there is the app that you can run on your device <br />
+Added the android version -> so there is the app that you can run on your device
+
